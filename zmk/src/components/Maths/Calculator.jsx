@@ -1,7 +1,11 @@
 import React from "react";
 
 function Calculator() {
-  return <h1>h1</h1>;
+  return (
+    <div>
+      <h1>hello</h1>{" "}
+    </div>
+  );
 }
 
 export default Calculator;

@@ -38,6 +38,12 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item"></li>
+            <li className="nav-item">
+              <a className="nav-link" href="/ParentComponent">
+                Pet Sanctuary
+              </a>
+            </li>
+            <li className="nav-item"></li>
           </ul>
         </div>
       </div>

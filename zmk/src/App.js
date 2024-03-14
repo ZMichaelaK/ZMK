@@ -1,12 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Aboutme from "./components/Aboutme";
-import Homepage from "./components/Homepage";
+import Navbar from "./components/Misc/Navbar";
+import Aboutme from "./components/Misc/Aboutme";
+import Homepage from "./components/Misc/Homepage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Maths from "./components/Maths/Counter";
 import ParentComponent from "./components/Maths/ParentComponent";
+// import Pet from "./components/Pet"
+
 function App() {
   return (
     <header>
@@ -16,7 +17,7 @@ function App() {
           <Route path="/Homepage" element={<Homepage />} />
           <Route path="/Aboutme" element={<Aboutme />} />
           {/* <Route path="/update/:id" element={<ItemEdit />} /> */}
-          <Route path="/Maths" element={<ParentComponent />} />
+          <Route path="/ParentComponent" element={<ParentComponent />} />
         </Routes>
       </Router>
     </header>
